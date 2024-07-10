@@ -1,0 +1,45 @@
+body { 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* Pagină Înregistrare */
+.signup-form { 
+    max-width: 900px; 
+    margin: 0 auto; 
+    background-color: white; 
+    padding: 15px; 
+    margin-top: 100px; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 9px 6px rgba(0, 0, 0, 0.1); 
+}
+.signup-form, .login-form h2 { 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+    text-align: center; 
+}
+.form-group { 
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px;
+}
+/*Pagină Conectare*/
+.login-form { 
+    max-width: 500px; 
+    margin: 0 auto; 
+    background-color: white; 
+    padding: 15px; 
+    margin-top: 150px; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 9px 6px rgba(0, 0, 0, 0.1); 
+    height: 350px;
+}
+
+
